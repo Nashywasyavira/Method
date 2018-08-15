@@ -1,0 +1,12 @@
+package Jobsheet11;
+
+public class Coba2 {
+private static void tampilJudul(String identitas) {
+System.out.println("Identitas : " + identitas);
+System.out.println("\nConvert Kalimat Alay Angka (Vokal ke Angka)\n"); }
+
+public static void main(String[] args) {
+String identitas = "Nashywa Syavira Nur Arliza/ X RPL 3/ 30";
+tampilJudul(identitas);
+}
+}
