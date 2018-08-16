@@ -1,0 +1,21 @@
+package Jobsheet11;
+import java.util.Scanner;
+public class Coba2 {
+private static void tampilJudul(String identitas) {
+System.out.println("Identitas : " + identitas);
+System.out.println("\nConvert Kalimat Alay Angka (Vokal ke Angka)\n"); }
+
+public static void main(String[] args) {
+String identitas = "Nashywa Syavira Nur Arliza/ X RPL 3/ 30";
+tampilJudul(identitas);
+String kalimat = tampilInput();
+}
+
+private static String tampilInput() {
+Scanner scanner = new Scanner(System.in);
+System.out.print("Masukan Kalimat : ");
+String kalimat = scanner.nextLine();
+System.out.println("Kalimat Asli : " + kalimat);
+return kalimat; }
+}
+
